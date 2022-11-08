@@ -1,0 +1,11 @@
+Documentação do Código:
+
+Linha 6, Lá deixamos declarado o led como "high", porque? Para ele já iniciar o sensor com a luz acesa
+Linha 7, Nessa linha o comando "sleep" define o tempo de delay ate ficar 'funcional' o nosso sensor
+Linha 9, Inicio da condicional
+Linha 10, Aqui o sensor fica em modo standby esperando qualquer tipo de ação, no caso, o click, que vai representar o movimento.
+Linha 13, Temos novamente o "LED.high" aqui ele ira permanecer aceso até que tenha alguma ação.
+Linha 14, Repetimos o "sleep", porem agora ele determina o intervalo entre as mensagens "Vaga Disponivel" que é de 2 seg.
+Linha 17, nessa linha temos então a condição de "detecção de movimento" que no caso é onde o sensor após nosso click entende que tem movimento e imprime a mensagem
+"Vaga Ocupada".
+Linha 18, Já nessa linha o comando "sleep" determina o tempo que a mensagem "Vaga Ocupada" permanecera aparecendo na tela que é de 10seg. 
